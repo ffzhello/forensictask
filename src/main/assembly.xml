@@ -1,0 +1,40 @@
+<assembly xmlns="http://maven.apache.org/ASSEMBLY/2.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/ASSEMBLY/2.0.0 http://maven.apache.org/xsd/assembly-2.0.0.xsd">
+
+    <id>bin</id>
+    <formats>
+        <format>zip</format>
+    </formats>
+    <dependencySets>
+        <dependencySet>
+            <!-- 将scope为runtime的依赖包打包到lib目录下。-->
+            <useProjectArtifact>true</useProjectArtifact>
+            <outputDirectory>lib/</outputDirectory>
+            <scope>runtime</scope>
+        </dependencySet>
+    </dependencySets>
+
+    <fileSets>
+        <fileSet>
+            <outputDirectory>/</outputDirectory>
+            <includes>
+                <include>Readme.MD</include>
+            </includes>
+        </fileSet>
+        <fileSet>
+            <directory>bin/</directory>
+            <outputDirectory>bin/</outputDirectory>
+            <includes>
+                <include>*</include>
+            </includes>
+        </fileSet>
+        <fileSet>
+            <directory>conf/</directory>
+            <outputDirectory>conf/</outputDirectory>
+            <includes>
+                <include>log4j2.xml</include>
+            </includes>
+        </fileSet>
+    </fileSets>
+</assembly>

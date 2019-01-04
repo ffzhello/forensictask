@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+        <RollingRandomAccessFile name="AutoResponse" fileName="../logs/forensictask.log"
+                                 filePattern="logs/$${date:yyyy-MM}/forensictask-%d{MM-dd-yyyy}-%i.log.gz">
+            <PatternLayout>
+                <Pattern>%d %p %c{1. } [%t] %m%n</Pattern>
+            </PatternLayout>
+            <Policies>
+                <TimeBasedTriggeringPolicy />
+                <SizeBasedTriggeringPolicy size = "100 MB" />
+            </Policies>
+        </RollingRandomAccessFile>
+    </Appenders>
+
+    <Loggers>
+        <!-- 过滤第三方jar包日志输出 -->
+        <Logger name="org.pcap4j" level="warn" additivity="false"></Logger>
+        <Root level="debug">
+            <AppenderRef ref="AutoResponse"/>
+        </Root>
+    </Loggers>
+</Configuration>
