@@ -261,9 +261,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-92" />
-    <option name="y" value="330" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1248" />
     <option name="height" value="746" />
   </component>
@@ -771,11 +771,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FileManager" />
       <item itemvalue="Application.ConcurrentDetection" />
-      <item itemvalue="Application.SensorStopStrategy" />
-      <item itemvalue="Application.SendStopToHydra" />
+      <item itemvalue="Application.FileManager" />
       <item itemvalue="Application.PcapFileOfflineSplit" />
+      <item itemvalue="Application.SendStopToHydra" />
+      <item itemvalue="Application.SensorStopStrategy" />
     </list>
     <recent_temporary>
       <list>
