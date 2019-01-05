@@ -164,6 +164,8 @@ public class PcapFileOfflineSplit implements Runnable{
                         //本周期已采集报文大小
                         task.cyclebytes += packetSize;
 
+
+                        /*暂时不写
                         //写报文到对端ip
                         String taskip = src;
                         String peerip = dst;
@@ -194,6 +196,7 @@ public class PcapFileOfflineSplit implements Runnable{
                         long bytes = peerIpInfo.getSensorbytes();
                         peerIpInfo.setSensorbytes(bytes+packetSize);
                         //根据对端ip分类finish
+                        */
                     }
                 }
             }
@@ -298,10 +301,10 @@ public class PcapFileOfflineSplit implements Runnable{
                 PcapFileManager.updatePcapFileInfoFromDB(pcapFileInfo.getId());
 
                 //删除系统中的pcap文件
-                /*String filePath = pcapFileInfo.getFilepath();
+                String filePath = pcapFileInfo.getFilepath();
                 File f = new File(filePath);
                 if (f != null)
-                    f.delete();*/
+                    f.delete();
 
                 int fCount = cycleTasks.size();
                 if (fCount <= 0) {

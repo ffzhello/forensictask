@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ed27bd4-28a0-46ae-b0fa-087833d45c2d" name="Default" comment="连接日志冗余追踪ip流量大小、对端ip流量大小信息，便于页面加载速度">
+    <list default="true" id="4ed27bd4-28a0-46ae-b0fa-087833d45c2d" name="Default" comment="ip用long形式冗余，便于聚合索引，提高页面加载速度">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ConcurrentDetection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ConcurrentDetection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/IpUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/IpUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/PcapFileOfflineSplit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/PcapFileOfflineSplit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/ConcurrentDetection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/ConcurrentDetection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/IpUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/IpUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/PcapFileOfflineSplit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/PcapFileOfflineSplit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/SensorStopStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/SensorStopStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/forensictask-1.0-SNAPSHOT-bin.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/forensictask-1.0-SNAPSHOT-bin.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/forensictask-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/forensictask-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,10 +40,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/PcapFileOfflineSplit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="306" column="31" lean-forward="true" selection-start-line="306" selection-start-column="31" selection-end-line="306" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ConcurrentDetection.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="293" column="13" lean-forward="true" selection-start-line="293" selection-start-column="13" selection-end-line="293" selection-end-column="13" />
+              <caret line="293" column="13" selection-start-line="293" selection-start-column="13" selection-end-line="293" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/IpUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="803">
+              <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -128,7 +158,6 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/MultiProcessTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ActionHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/Thre.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/IpUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/PeerIpInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/AutoResponseMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/PeerIpSplitTest.java" />
@@ -151,9 +180,10 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/StopResult.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/TimeManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ActiveTaskManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/PcapFileOfflineSplit.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/SensorStopStrategy.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ConcurrentDetection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/IpUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/PcapFileOfflineSplit.java" />
       </list>
     </option>
   </component>
@@ -192,7 +222,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2143" />
+    <option name="x" value="73" />
     <option name="y" value="-8" />
     <option name="width" value="1248" />
     <option name="height" value="746" />
@@ -301,7 +331,7 @@
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546658551224" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546672661760" />
     <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.9/druid-1.1.9.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -340,7 +370,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PcapFileOfflineSplit">
+  <component name="RunManager" selected="Application.IpUtils">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -571,8 +601,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.edu.jslab6.autoresponse.forensictask.FileManager" />
+    <configuration name="IpUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.edu.jslab6.autoresponse.forensictask.IpUtils" />
       <module name="forensictask" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -691,19 +721,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FileManager" />
       <item itemvalue="Application.ConcurrentDetection" />
       <item itemvalue="Application.SensorStopStrategy" />
       <item itemvalue="Application.SendStopToHydra" />
       <item itemvalue="Application.PcapFileOfflineSplit" />
+      <item itemvalue="Application.IpUtils" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IpUtils" />
         <item itemvalue="Application.PcapFileOfflineSplit" />
         <item itemvalue="Application.ConcurrentDetection" />
         <item itemvalue="Application.SendStopToHydra" />
         <item itemvalue="Application.SensorStopStrategy" />
-        <item itemvalue="Application.FileManager" />
       </list>
     </recent_temporary>
   </component>
@@ -791,7 +821,14 @@
       <option name="project" value="LOCAL" />
       <updated>1546657973876</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ip用long形式冗余，便于聚合索引，提高页面加载速度">
+      <created>1546658579102</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1546658579102</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -807,10 +844,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1672" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22668579" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19339046" />
       <window_info id="Structure" order="1" weight="0.2489976" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -820,18 +857,18 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32969433" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2295271" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18915802" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.25905293" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32990575" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32969433" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.29428172" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50071734" side_tool="true" weight="0.22873083" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49928263" weight="0.29428172" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.21506551" />
       <window_info anchor="bottom" id="Run with VisualVM" order="10" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.328341" />
-      <window_info anchor="right" id="Maven" order="0" weight="0.16857962" />
+      <window_info anchor="right" id="Maven" order="0" visible="true" weight="0.14381886" />
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
@@ -914,20 +951,14 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="采集到50M停止采集" />
     <MESSAGE value="连接日志冗余追踪ip流量大小、对端ip流量大小信息，便于页面加载速度" />
-    <option name="LAST_COMMIT_MESSAGE" value="连接日志冗余追踪ip流量大小、对端ip流量大小信息，便于页面加载速度" />
+    <MESSAGE value="ip用long形式冗余，便于聚合索引，提高页面加载速度" />
+    <option name="LAST_COMMIT_MESSAGE" value="ip用long形式冗余，便于聚合索引，提高页面加载速度" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/IpUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="642">
-          <caret line="52" column="54" lean-forward="true" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/Detect.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -1287,16 +1318,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/PcapFileOfflineSplit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2742">
-          <caret line="180" column="35" selection-start-line="180" selection-start-column="35" selection-end-line="180" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/SendStopToHydra.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -1311,10 +1332,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/IpUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="803">
+          <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ConcurrentDetection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="293" column="13" lean-forward="true" selection-start-line="293" selection-start-column="13" selection-end-line="293" selection-end-column="13" />
+          <caret line="293" column="13" selection-start-line="293" selection-start-column="13" selection-end-line="293" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/PcapFileOfflineSplit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="306" column="31" lean-forward="true" selection-start-line="306" selection-start-column="31" selection-end-line="306" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

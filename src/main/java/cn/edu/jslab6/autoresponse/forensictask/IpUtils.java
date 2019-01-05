@@ -50,7 +50,7 @@ public class IpUtils {
     }
 
     public static void main(String[] args) {
-        System.out.println(ipToLong("211.65.193.41"));
-        System.out.println(ipLong2Ip(3544301865l));
+        System.out.println(ipToLong("149.20.64.28"));
+        System.out.println(ipLong2Ip(3413138679l));
     }
 }
