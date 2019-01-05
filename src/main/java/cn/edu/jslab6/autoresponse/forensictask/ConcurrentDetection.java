@@ -284,15 +284,31 @@ public class ConcurrentDetection implements Runnable {
 
         if ((!("software".equals(tablename))) && (!("pe".equals(tablename))) && (!("x509".equals(tablename)))) {
             //
-            String taskip = fields[2];
-            String peerip = fields[4];
+            String taskip = fields[4];
+            String peerip = fields[2];
 
             String ipStr = task.getIpString();
-            if (ipStr.contains(fields[4])) {
-                taskip = fields[4];
-                peerip = fields[2];
+            if (ipStr.contains(fields[2])) {
+                taskip = fields[2];
+                peerip = fields[4];
             }
             sql += "," + task.getId() + ",\'" + taskip + "\',\'" + peerip + "\',\'" + task.cycle + "\'";
+
+            //连接日志冗余追踪ip流量大小、对端ip流量大小信息，便于页面加载速度
+            if ("conn".equals(tablename)) {
+                String taskPkts = fields[10];
+                String taskBytes = fields[11];
+                String peerPkts = fields[8];
+                String peerBytes = fields[9];
+
+                if (taskip.equals(fields[2])) {
+                    taskPkts = fields[8];
+                    taskBytes = fields[9];
+                    peerPkts = fields[10];
+                    peerBytes = fields[11];
+                }
+                sql += ",\'" + taskPkts + "\',\'" + taskBytes + "\',\'" + peerPkts + "\',\'" + peerBytes + "\'";
+            }
         }
         sql += ")";
 
