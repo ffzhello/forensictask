@@ -343,7 +343,7 @@ public class PcapFileOfflineSplit implements Runnable{
                     cycleTasks.clear();
 
                     //回送给CHAIRS，更新数据库
-                   /* if (!cycleTasks.isEmpty()) {
+                    /* if (!cycleTasks.isEmpty()) {
                         for (ActiveTask task: cycleTasks) {
                             ActionHandler.returnResults(task);
                         }

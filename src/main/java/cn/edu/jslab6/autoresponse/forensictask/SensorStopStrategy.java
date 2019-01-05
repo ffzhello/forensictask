@@ -9,6 +9,6 @@ public class SensorStopStrategy {
      */
     public static boolean canStop(ActiveTask task) {
         //大于100M,或采集时间超过10天
-        return (task.getSensorBytes()>100*1024*1024)? true:false;
+        return (task.getSensorBytes()>50*1024*1024)? true:false;
     }
 }
