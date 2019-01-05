@@ -164,8 +164,6 @@ public class PcapFileOfflineSplit implements Runnable{
                         //本周期已采集报文大小
                         task.cyclebytes += packetSize;
 
-
-                        /*暂时不写
                         //写报文到对端ip
                         String taskip = src;
                         String peerip = dst;
@@ -173,7 +171,7 @@ public class PcapFileOfflineSplit implements Runnable{
                             taskip = dst;
                             peerip = src;
                         }
-                        //根据对端ip分类
+                        /*//根据对端ip分类
                         if (!(task.peerIpInfoMap.containsKey(peerip))) {
                             //创建对端ip目录
                             String path = task.getDirPath() + cycle + "/" + taskip + "-" + peerip;
@@ -195,8 +193,8 @@ public class PcapFileOfflineSplit implements Runnable{
 
                         long bytes = peerIpInfo.getSensorbytes();
                         peerIpInfo.setSensorbytes(bytes+packetSize);
-                        //根据对端ip分类finish
-                        */
+                        //根据对端ip分类finish*/
+
                     }
                 }
             }
@@ -215,31 +213,15 @@ public class PcapFileOfflineSplit implements Runnable{
                         t.dumper.close();
                         t.dumper = null;
                     }
-                    // 关闭对端ip的dumper
+                    /*// 关闭对端ip的dumper
                     for(Map.Entry<String,PeerIpInfo> entry1: t.peerIpInfoMap.entrySet()) {
                         if (entry1.getValue().pcapDumper != null && entry1.getValue().pcapDumper.isOpen()) {
                             entry1.getValue().pcapDumper.close();
                             entry1.getValue().pcapDumper = null;
                         }
-                    }
+                    }*/
                 }
             }
-             /*if (!ruleToTasks.isEmpty()) {
-                for (Map.Entry<Long,Set> entry: ruleToTasks.entrySet()) {
-                    Set<ActiveTask> set = entry.getValue();
-                    for (ActiveTask t: set) {
-                        if(t.dumper != null) {
-                            t.dumper.close();
-                            t.dumper = null;
-                            //关闭对端ip dumper
-                            for(Map.Entry<String,PeerIpInfo> entry1: t.peerIpInfoMap.entrySet()) {
-                                entry1.getValue().pcapDumper.close();
-                                entry1.getValue().pcapDumper = null;
-                            }
-                        }
-                    }
-                }
-            }*/
             if(handle != null) {
                 //关闭handle
                 handle.close();
@@ -305,6 +287,7 @@ public class PcapFileOfflineSplit implements Runnable{
                 File f = new File(filePath);
                 if (f != null)
                     f.delete();
+
 
                 int fCount = cycleTasks.size();
                 if (fCount <= 0) {
@@ -395,7 +378,8 @@ public class PcapFileOfflineSplit implements Runnable{
     //main
     public static void main(String[] args){
         //test
-       /*ActiveTask task = new ActiveTask();
+        /*
+       ActiveTask task = new ActiveTask();
        task.setId(1);
        task.setIpString("223.3.108.21/32");
        task.setDirPath("E:/" + task.getId() + "/");
@@ -406,7 +390,7 @@ public class PcapFileOfflineSplit implements Runnable{
        PcapFileInfo pcapFileInfo = new PcapFileInfo();
        pcapFileInfo.setFilepath("E:/122200.pcap");
 
-       split.splitPcapFile(pcapFileInfo);*/
-       long ts = System.currentTimeMillis() / 1000;
+       split.splitPcapFile(pcapFileInfo);
+       */
     }
 }
