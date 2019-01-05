@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ed27bd4-28a0-46ae-b0fa-087833d45c2d" name="Default" comment="采集到50M停止采集">
+    <list default="true" id="4ed27bd4-28a0-46ae-b0fa-087833d45c2d" name="Default" comment="连接日志冗余追踪ip流量大小、对端ip流量大小信息，便于页面加载速度">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ConcurrentDetection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ConcurrentDetection.java" afterDir="false" />
     </list>
@@ -34,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ConcurrentDetection.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="296" column="48" lean-forward="true" selection-start-line="296" selection-start-column="48" selection-end-line="296" selection-end-column="48" />
+              <caret line="293" column="13" lean-forward="true" selection-start-line="293" selection-start-column="13" selection-end-line="293" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -301,7 +301,7 @@
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546657950135" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546658551224" />
     <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.9/druid-1.1.9.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -777,7 +777,21 @@
       <option name="project" value="LOCAL" />
       <updated>1546653128130</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="连接日志冗余追踪ip流量大小、对端ip流量大小信息，便于页面加载速度">
+      <created>1546657932639</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1546657932639</updated>
+    </task>
+    <task id="LOCAL-00003" summary="连接日志冗余追踪ip流量大小、对端ip流量大小信息，便于页面加载速度">
+      <created>1546657973876</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1546657973876</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -793,10 +807,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="1672" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19339046" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22668579" />
       <window_info id="Structure" order="1" weight="0.2489976" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -812,7 +826,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32990575" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32969433" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.24336794" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.29428172" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.21506551" />
       <window_info anchor="bottom" id="Run with VisualVM" order="10" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="11" />
@@ -899,7 +913,8 @@
     </ignored-roots>
     <MESSAGE value="initial commit" />
     <MESSAGE value="采集到50M停止采集" />
-    <option name="LAST_COMMIT_MESSAGE" value="采集到50M停止采集" />
+    <MESSAGE value="连接日志冗余追踪ip流量大小、对端ip流量大小信息，便于页面加载速度" />
+    <option name="LAST_COMMIT_MESSAGE" value="连接日志冗余追踪ip流量大小、对端ip流量大小信息，便于页面加载速度" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1299,7 +1314,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ConcurrentDetection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="296" column="48" lean-forward="true" selection-start-line="296" selection-start-column="48" selection-end-line="296" selection-end-column="48" />
+          <caret line="293" column="13" lean-forward="true" selection-start-line="293" selection-start-column="13" selection-end-line="293" selection-end-column="13" />
         </state>
       </provider>
     </entry>

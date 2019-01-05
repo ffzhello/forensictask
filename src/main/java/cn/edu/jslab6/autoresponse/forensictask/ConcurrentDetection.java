@@ -284,24 +284,28 @@ public class ConcurrentDetection implements Runnable {
 
         if ((!("software".equals(tablename))) && (!("pe".equals(tablename))) && (!("x509".equals(tablename)))) {
             //
-            String taskip = fields[4];
-            String peerip = fields[2];
+            String taskIp = fields[4];
+            String peerIp = fields[2];
 
             String ipStr = task.getIpString();
             if (ipStr.contains(fields[2])) {
-                taskip = fields[2];
-                peerip = fields[4];
+                taskIp = fields[2];
+                peerIp = fields[4];
             }
-            sql += "," + task.getId() + ",\'" + taskip + "\',\'" + peerip + "\',\'" + task.cycle + "\'";
+            // ip用long形式冗余，便于聚合索引，提高页面加载速度
+            long taskIpLong = (taskIp.equals("-")? 0: IpUtils.ipToLong(taskIp));
+            long peerIpLong = (peerIp.equals("-")? 0: IpUtils.ipToLong(peerIp));
 
-            //连接日志冗余追踪ip流量大小、对端ip流量大小信息，便于页面加载速度
+            sql += "," + task.getId() + "," + taskIpLong + "," + peerIpLong + ",\'" + task.cycle + "\'";
+
+            // 连接日志冗余追踪ip流量大小、对端ip流量大小信息，提高页面加载速度
             if ("conn".equals(tablename)) {
                 String taskPkts = fields[10];
                 String taskBytes = fields[11];
                 String peerPkts = fields[8];
                 String peerBytes = fields[9];
 
-                if (taskip.equals(fields[2])) {
+                if (taskIp.equals(fields[2])) {
                     taskPkts = fields[8];
                     taskBytes = fields[9];
                     peerPkts = fields[10];
