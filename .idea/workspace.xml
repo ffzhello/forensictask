@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4ed27bd4-28a0-46ae-b0fa-087833d45c2d" name="Default" comment="删除已经分离的pcap文件">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/PcapFileOfflineSplit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/PcapFileOfflineSplit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/PcapFileOfflineSplit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/PcapFileOfflineSplit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/forensictask-1.0-SNAPSHOT-bin.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/forensictask-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/forensictask-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ConcurrentDetection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ConcurrentDetection.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,8 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/PcapFileOfflineSplit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="285" column="30" lean-forward="true" selection-start-line="285" selection-start-column="30" selection-end-line="285" selection-end-column="30" />
+            <state relative-caret-position="199">
+              <caret line="214" column="21" lean-forward="true" selection-start-line="214" selection-start-column="21" selection-end-line="214" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,10 +43,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/SensorStopStrategy.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ConcurrentDetection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            <state relative-caret-position="420">
+              <caret line="77" column="92" lean-forward="true" selection-start-line="77" selection-start-column="92" selection-end-line="77" selection-end-column="92" />
             </state>
           </provider>
         </entry>
@@ -157,10 +153,10 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/TimeManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ActiveTaskManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/SensorStopStrategy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ConcurrentDetection.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/IpUtils.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/PcapFileOfflineSplit.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ConcurrentDetection.java" />
       </list>
     </option>
   </component>
@@ -199,8 +195,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="177" />
-    <option name="y" value="-24" />
+    <option name="x" value="139" />
+    <option name="y" value="-8" />
     <option name="width" value="1248" />
     <option name="height" value="746" />
   </component>
@@ -332,7 +328,7 @@
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546684657324" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546782066644" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../代码修改" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -843,7 +839,14 @@
       <option name="project" value="LOCAL" />
       <updated>1546672738004</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="删除已经分离的pcap文件">
+      <created>1546684732023</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1546684732023</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -859,10 +862,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1672" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22668579" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19339046" />
       <window_info id="Structure" order="1" weight="0.2489976" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -872,18 +875,18 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32969433" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33193862" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27450982" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.25905293" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32990575" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50071734" side_tool="true" weight="0.22873083" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49928263" weight="0.034602076" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" sideWeight="0.49928263" visible="true" weight="0.10380623" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.21478382" />
       <window_info anchor="bottom" id="Run with VisualVM" order="10" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32775453" />
-      <window_info anchor="right" id="Maven" order="0" visible="true" weight="0.16857962" />
+      <window_info anchor="right" id="Maven" order="0" weight="0.14381886" />
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
@@ -1292,13 +1295,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ConcurrentDetection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="293" column="13" selection-start-line="293" selection-start-column="13" selection-end-line="293" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bin/system.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -1347,20 +1343,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/SensorStopStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="52" lean-forward="true" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/PcapFileOfflineSplit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="285" column="30" lean-forward="true" selection-start-line="285" selection-start-column="30" selection-end-line="285" selection-end-column="30" />
+        <state relative-caret-position="199">
+          <caret line="214" column="21" lean-forward="true" selection-start-line="214" selection-start-column="21" selection-end-line="214" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/SensorStopStrategy.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ConcurrentDetection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        <state relative-caret-position="420">
+          <caret line="77" column="92" lean-forward="true" selection-start-line="77" selection-start-column="92" selection-end-line="77" selection-end-column="92" />
         </state>
       </provider>
     </entry>

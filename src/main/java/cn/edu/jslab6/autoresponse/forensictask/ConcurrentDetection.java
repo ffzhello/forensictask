@@ -77,6 +77,9 @@ public class ConcurrentDetection implements Runnable {
             // Suricata检测和Bro检测至少有一个成功后，进行IDS融合警报的生成。
             if (activeTask.responseResult.actionResult.get(ResponseAction.SuricataDetect) ||
                     activeTask.responseResult.actionResult.get(ResponseAction.BroDetect)) {
+                // 处理两类警报信息
+
+                // 处理日志信息
                 logAnalysis(activeTask);
             }
 
