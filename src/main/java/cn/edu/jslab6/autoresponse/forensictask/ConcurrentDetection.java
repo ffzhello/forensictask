@@ -77,7 +77,6 @@ public class ConcurrentDetection implements Runnable {
             // Suricata检测和Bro检测至少有一个成功后，进行IDS融合警报的生成。
             if (activeTask.responseResult.actionResult.get(ResponseAction.SuricataDetect) ||
                     activeTask.responseResult.actionResult.get(ResponseAction.BroDetect)) {
-                // 处理两类警报信息
 
                 // 处理日志信息
                 logAnalysis(activeTask);
@@ -182,6 +181,23 @@ public class ConcurrentDetection implements Runnable {
         //bro-cut
         String path = task.getDirPath() + task.cycle + "/" + "bro_detect/";
         ArrayList<String> files = FileManager.getFiles(path, "log");
+
+        // weird.log和Suricata警报单独处理
+        if (files.contains("weird.log")) {
+            // 处理两类警报信息
+            try {
+                String simpleAlert = task.getDirPath() + task.cycle + "/weird.txt";
+                genSimpleAlert(task.getDirPath()+task.cycle, simpleAlert);
+            } catch (IOException e) {
+                e.printStackTrace();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            } finally {
+
+            }
+        }
+
+        // 处理bro其他日志
         if (!files.isEmpty()) {
             Properties properties = new Properties();
             try {
@@ -197,12 +213,15 @@ public class ConcurrentDetection implements Runnable {
             //构造shell脚本
             ArrayList<String> cmdArr = new ArrayList<>();
             for (String file: files) {
+                if ("weird.log".equals(file))
+                    continue;
+
                 int index = file.indexOf(".");
                 String filename = file.substring(0,index);
 
                 if (BroLogType.connLogSet.contains(file) || BroLogType.protocolLogSet.contains(file) || BroLogType.fileLogSet.contains(file) || BroLogType.weirdLogSet.contains(file))  {
                     String args = properties.getProperty(filename);
-                    String cmd = "cat " + file + " | bro-cut -F '`' " + args + " > ./" + filename + ".txt";
+                    String cmd = "cat " + file + " | bro-cut -F '`' " + args + " > ../" + filename + ".txt";
                     cmdArr.add(cmd);
                 }
             }
@@ -219,8 +238,6 @@ public class ConcurrentDetection implements Runnable {
                 commands += cmdArr.get(i) + " ";
             }
 
-            //LOG.debug(commands);
-
             String[] cmds = {"/bin/sh", "-c", commands};
             File dir = new File(path);
             BufferedReader bufferedReader = null;
@@ -231,8 +248,7 @@ public class ConcurrentDetection implements Runnable {
 
                 InputStream in = process.getInputStream();
                 bufferedReader = new BufferedReader(new InputStreamReader(in));
-                String line = null;
-                while ((line = bufferedReader.readLine()) != null) {
+                while ((bufferedReader.readLine()) != null) {
                     //non handle
                 }
             } catch (IOException e) {
@@ -369,7 +385,7 @@ public class ConcurrentDetection implements Runnable {
         }
 
         //读取数据
-        String filepath = task.getDirPath() + task.cycle + "/" + "bro_detect/" + file;
+        String filepath = task.getDirPath() + task.cycle + "/" + file;
         File f = new File(filepath);
         BufferedReader reader = null;
         try {
@@ -384,8 +400,9 @@ public class ConcurrentDetection implements Runnable {
                 if (protocolLog == true)
                     serviceMap.put(fields[0],filename);
 
-                //时间戳处理
-                fields[1] = TimeManager.changeTsToString(fields[1]);
+                //时间戳处理，警报txt时间格式已经统一，不用处理
+                if (!("weird".equals(filename)))
+                    fields[1] = TimeManager.changeTsToString(fields[1]);
 
                 //conn.log富化service
                 if (connLog == true && "-".equals(fields[7])) {
@@ -418,7 +435,7 @@ public class ConcurrentDetection implements Runnable {
         if (task == null || (preparedHandle(task) != 0))
             return;
 
-        String path = task.getDirPath() + task.cycle + "/bro_detect/";
+        String path = task.getDirPath() + task.cycle + "/";
         ArrayList<String> txt = FileManager.getFiles(path, "txt");
         if (txt.isEmpty())
             return;

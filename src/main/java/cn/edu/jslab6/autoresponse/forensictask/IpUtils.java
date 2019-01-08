@@ -1,5 +1,8 @@
 package cn.edu.jslab6.autoresponse.forensictask;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 /**
  * Created by ffzheng on 2017/7/26.
  */
@@ -49,8 +52,15 @@ public class IpUtils {
         return mask;
     }
 
-    public static void main(String[] args) {
-        System.out.println(ipToLong("149.20.64.28"));
+    public static void main(String[] args) throws Exception{
+        System.out.println(ipToLong("121.248.60.15"));
         System.out.println(ipLong2Ip(3413138679l));
+
+        SimpleDateFormat dateFormat = new SimpleDateFormat("%Y-%m-%d %H:%M:%S.sss");
+        Date date = new Date();
+        date = dateFormat.parse("1546676692.385804");
+        String format = dateFormat.format(date);
+
+        System.out.println(format);
     }
 }
