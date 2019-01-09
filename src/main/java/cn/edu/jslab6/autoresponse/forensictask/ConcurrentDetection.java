@@ -377,10 +377,7 @@ public class ConcurrentDetection implements Runnable {
         //如果是协议类型，获取服务map
         if (BroLogType.protocolLogSet.contains(filename+".log")) {
             protocolLog = true;
-        }
-
-        //如果是连接类型日志，富化服务字段
-        if (BroLogType.connLogSet.contains(filename+".log")) {
+        } else if (BroLogType.connLogSet.contains(filename+".log")) { //如果是连接类型日志，富化服务字段
             connLog = true;
         }
 
@@ -418,7 +415,6 @@ public class ConcurrentDetection implements Runnable {
         } finally {
             if (reader != null) {
                 try {
-                    serviceMap.clear();
                     reader.close();
                 } catch (IOException e1) {
                 }
@@ -450,7 +446,8 @@ public class ConcurrentDetection implements Runnable {
         if (txt.contains("conn.txt"))
             logReader(task, "conn.txt");
 
-        //suricata.log
+        // 日志处理完后，清空map
+        serviceMap.clear();
     }
 
     /**
