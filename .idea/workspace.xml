@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ed27bd4-28a0-46ae-b0fa-087833d45c2d" name="Default" comment="Suricata警报与Bro警报信息上线">
+    <list default="true" id="4ed27bd4-28a0-46ae-b0fa-087833d45c2d" name="Default" comment="流量采集上限设置为30M">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ConcurrentDetection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ConcurrentDetection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/logextractrules.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bin/logextractrules.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/SensorStopStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/SensorStopStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/ConcurrentDetection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/ConcurrentDetection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/SensorStopStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/SensorStopStrategy.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/forensictask-1.0-SNAPSHOT-bin.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/forensictask-1.0-SNAPSHOT-bin.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/forensictask-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/forensictask-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
@@ -38,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ConcurrentDetection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="916">
-              <caret line="450" column="5" lean-forward="true" selection-start-line="450" selection-start-column="5" selection-end-line="450" selection-end-column="5" />
+            <state relative-caret-position="617">
+              <caret line="450" column="5" selection-start-line="450" selection-start-column="5" selection-end-line="450" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -47,8 +47,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/SensorStopStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="325">
+              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bin/logextractrules.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -145,7 +154,6 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/LogToDbManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/FileManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/DruidDataSourcePool.java" />
-        <option value="$PROJECT_DIR$/bin/logextractrules.properties" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ResponseTask.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/TaskManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ActiveTask.java" />
@@ -158,6 +166,7 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/TimeManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/IpUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ConcurrentDetection.java" />
+        <option value="$PROJECT_DIR$/bin/logextractrules.properties" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/SensorStopStrategy.java" />
       </list>
     </option>
@@ -197,9 +206,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-28" />
+    <option name="x" value="1693" />
     <option name="y" value="-17" />
-    <option name="width" value="1248" />
+    <option name="width" value="1353" />
     <option name="height" value="746" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -233,6 +242,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -318,7 +328,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -330,7 +339,7 @@
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547015948400" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547091148736" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../代码修改" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -876,7 +885,14 @@
       <option name="project" value="LOCAL" />
       <updated>1546941302547</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="流量采集上限设置为30M">
+      <created>1547016038341</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1547016038341</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -892,10 +908,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="1672" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25764993" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22022955" />
       <window_info id="Structure" order="1" weight="0.2489976" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -905,18 +921,18 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32969433" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.0922722" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31520224" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.25905293" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32990575" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50071734" side_tool="true" weight="0.22873083" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49928263" weight="0.13033448" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49928263" weight="0.069735005" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.21478382" />
       <window_info anchor="bottom" id="Run with VisualVM" order="10" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32775453" />
-      <window_info anchor="right" id="Maven" order="0" visible="true" weight="0.12239902" />
+      <window_info anchor="right" id="Maven" order="0" visible="true" weight="0.14275466" />
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
@@ -1019,7 +1035,8 @@
     <MESSAGE value="时间格式统一" />
     <MESSAGE value="时间格式统一成yyyy-MM-dd HH:mm:ss.sss形式" />
     <MESSAGE value="Suricata警报与Bro警报信息上线" />
-    <option name="LAST_COMMIT_MESSAGE" value="Suricata警报与Bro警报信息上线" />
+    <MESSAGE value="流量采集上限设置为30M" />
+    <option name="LAST_COMMIT_MESSAGE" value="流量采集上限设置为30M" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -1332,13 +1349,6 @@
     <entry file="file://$PROJECT_DIR$/logs/autoresponse.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/logextractrules.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="84" selection-start-column="68" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/FileManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -1392,17 +1402,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/target/maven-archiver/pom.properties" />
     <entry file="file://$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/TimeManager.class" />
+    <entry file="file://$PROJECT_DIR$/bin/logextractrules.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ConcurrentDetection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="916">
-          <caret line="450" column="5" lean-forward="true" selection-start-line="450" selection-start-column="5" selection-end-line="450" selection-end-column="5" />
+        <state relative-caret-position="617">
+          <caret line="450" column="5" selection-start-line="450" selection-start-column="5" selection-end-line="450" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/SensorStopStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="325">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
