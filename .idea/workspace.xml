@@ -1,94 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ed27bd4-28a0-46ae-b0fa-087833d45c2d" name="Default" comment="流量采集上限设置为25M">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongo_java_driver_3_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_mongodb_mongo_java_driver_3_9_0.xml" afterDir="false" />
+    <list default="true" id="4ed27bd4-28a0-46ae-b0fa-087833d45c2d" name="Default" comment="引入mongo-java-driver依赖">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/MongoDbManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forensictask.iml" beforeDir="false" afterPath="$PROJECT_DIR$/forensictask.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/AA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/ActionHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/ActiveT.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/ActiveTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/ActiveTaskManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/AutoResponseMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/BroLogType$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/BroLogType$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/BroLogType$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/BroLogType$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/BroLogType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/ConcurrentDetection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/CycleSensorManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/DefaultHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/DelTaskHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/Detect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/DruidDataSourcePool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/FileManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/II.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/IpMask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/IpUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/LogToDbManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/Man.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/MultiDetect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/MultiProcessTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/MyException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/MyException2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/PacketMatch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/PacketTimestamp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/Pcap4JTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/PcapFileInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/PcapFileManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/PcapFileOfflineSplit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/PcapResponseResult$Attach.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/PcapResponseResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/PcapTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/PeerIpInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/PeerIpSensorInfoManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/PeerIpSplitTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/PostJson.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/ProtoNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/RawResponseTask$Config.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/RawResponseTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/RecvTaskHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/ResponseAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/ResponseResult$ResponseFiles.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/ResponseResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/ResponseResultSender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/ResponseTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/ResponseTaskHttpHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/ResponseTaskHttpServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/ResponseTaskManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/SendStopToHydra.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/SendWholePcapToCase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/SensorStopStrategy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/SensorTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/StopResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/SystemConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/TaskManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/TaskStatus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/TestHandlerTime.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/TestIp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/TestJson.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/TestStatic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/TestTaskStatus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/Thre.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/TimeManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/Utils$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponsetask/tools/MergePcap$MergePcapResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponsetask/tools/MergePcap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponsetask/tools/PostJson.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponsetask/tools/SendAlertToCase$AlertResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponsetask/tools/SendAlertToCase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponsetask/tools/SendPcapToCase$PcapResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponsetask/tools/SendPcapToCase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/forensictask-1.0-SNAPSHOT-bin.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/forensictask-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -115,59 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ConcurrentDetection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="617">
-              <caret line="450" column="5" selection-start-line="450" selection-start-column="5" selection-end-line="450" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/SensorStopStrategy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/MongoDbManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="64" column="20" lean-forward="true" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/FileManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="113" column="18" selection-start-line="113" selection-start-column="18" selection-end-line="113" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/Utils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-675">
-              <caret line="72" column="62" selection-start-line="72" selection-start-column="62" selection-end-line="72" selection-end-column="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/logextractrules.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+            <state relative-caret-position="200">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -227,8 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/AutoResponseTask.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/TestTaskStatus.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/TaskStatus.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/TT.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/Merge.java" />
@@ -276,8 +141,10 @@
         <option value="$PROJECT_DIR$/bin/logextractrules.properties" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/SensorStopStrategy.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponsetask/tools/MergePcap.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/MergePcapTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/MergePcapTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/MongoDuridPool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/MongoDbManager.java" />
       </list>
     </option>
   </component>
@@ -316,8 +183,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1906" />
-    <option name="y" value="-24" />
+    <option name="x" value="-8" />
+    <option name="y" value="-14" />
     <option name="width" value="1353" />
     <option name="height" value="746" />
   </component>
@@ -339,11 +206,6 @@
             <path>
               <item name="forensictask" type="b2602c69:ProjectViewProjectNode" />
               <item name="forensictask" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="forensictask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="forensictask" type="462c0819:PsiDirectoryNode" />
               <item name="logs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -353,7 +215,33 @@
             </path>
             <path>
               <item name="forensictask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="forensictask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="forensictask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forensictask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="forensictask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forensictask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jslab6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="forensictask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forensictask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jslab6" type="462c0819:PsiDirectoryNode" />
+              <item name="forensictask" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -370,13 +258,13 @@
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547201815420" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547212350280" />
     <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.9.0/mongo-java-driver-3.9.0.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.36551723" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -930,7 +818,14 @@
       <option name="project" value="LOCAL" />
       <updated>1547091205467</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="引入mongo-java-driver依赖">
+      <created>1547201867817</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1547201867817</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -946,10 +841,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1672" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22022955" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23500612" />
       <window_info id="Structure" order="1" weight="0.2489976" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -959,18 +854,18 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32969433" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985653" visible="true" weight="0.13528591" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985653" weight="0.23570432" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.25905293" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49928263" weight="0.32914925" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50143474" side_tool="true" weight="0.21478382" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49928263" weight="0.40369087" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49928263" weight="0.40306833" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4985653" weight="0.21478382" />
       <window_info anchor="bottom" id="Run with VisualVM" order="10" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32775453" />
-      <window_info active="true" anchor="right" id="Maven" order="0" visible="true" weight="0.27474892" />
+      <window_info anchor="right" id="Maven" order="0" weight="0.27474892" />
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
@@ -1075,27 +970,14 @@
     <MESSAGE value="Suricata警报与Bro警报信息上线" />
     <MESSAGE value="流量采集上限设置为30M" />
     <MESSAGE value="流量采集上限设置为25M" />
-    <option name="LAST_COMMIT_MESSAGE" value="流量采集上限设置为25M" />
+    <MESSAGE value="引入mongo-java-driver依赖" />
+    <option name="LAST_COMMIT_MESSAGE" value="引入mongo-java-driver依赖" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/PcapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="29" column="18" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/PostJson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ProtoNumber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -1354,12 +1236,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logs/forensictask.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/autoresponse.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/Thre.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1575">
@@ -1430,17 +1306,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/MergePcapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="84" column="58" selection-start-line="84" selection-start-column="58" selection-end-line="84" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1432#1440#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponsetask/tools/MergePcap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1000">
@@ -1451,6 +1316,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/MergePcapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="41" lean-forward="true" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/SensorStopStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -1458,10 +1340,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/logs/autoresponse.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/forensictask.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/MongoDuridPool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="64" column="20" lean-forward="true" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
+        <state relative-caret-position="200">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/MongoDbManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
         </state>
       </provider>
     </entry>
