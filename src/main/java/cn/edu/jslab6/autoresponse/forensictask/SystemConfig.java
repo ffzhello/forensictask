@@ -25,6 +25,13 @@ public class SystemConfig {
     private String mysqlUsername = "root";
     private String mysqlPasswd = "0000";
 
+    // mongodb 相关配置
+    private String mongoIP = "127.0.0.1";
+    private int mongoPort = 27017;
+    private String mongoDatabase = "autoresponse";
+    private String mongoUsername = "root";
+    private String mongoPasswd = "0000";
+
     //用来选择pfring网卡驱动，对应数据库中siteconfig中的id, id为27时默认对应dna1网卡
     private int sensorSiteid = 27;
 
@@ -66,6 +73,46 @@ public class SystemConfig {
 
     public void setMysqlPasswd(String mysqlPasswd) {
         this.mysqlPasswd = mysqlPasswd;
+    }
+
+    public String getMongoIP() {
+        return mongoIP;
+    }
+
+    public void setMongoIP(String mongoIP) {
+        this.mongoIP = mongoIP;
+    }
+
+    public int getMongoPort() {
+        return mongoPort;
+    }
+
+    public void setMongoPort(int mongoPort) {
+        this.mongoPort = mongoPort;
+    }
+
+    public String getMongoDatabase() {
+        return mongoDatabase;
+    }
+
+    public void setMongoDatabase(String mongoDatabase) {
+        this.mongoDatabase = mongoDatabase;
+    }
+
+    public String getMongoUsername() {
+        return mongoUsername;
+    }
+
+    public void setMongoUsername(String mongoUsername) {
+        this.mongoUsername = mongoUsername;
+    }
+
+    public String getMongoPasswd() {
+        return mongoPasswd;
+    }
+
+    public void setMongoPasswd(String mongoPasswd) {
+        this.mongoPasswd = mongoPasswd;
     }
 
     public int getSensorSiteid() {
@@ -136,6 +183,26 @@ public class SystemConfig {
 
         if (pps.getProperty("mysqlPasswd") != null) {
             mysqlPasswd = pps.getProperty("mysqlPasswd");
+        }
+
+        if (pps.getProperty("mongoIP") != null) {
+            mongoIP = pps.getProperty("mongoIP");
+        }
+
+        if (pps.getProperty("mongoPort") != null) {
+            mongoPort = Integer.parseInt(pps.getProperty("mongoPort"));
+        }
+
+        if (pps.getProperty("mongoDatabase") != null) {
+            mongoDatabase = pps.getProperty("mongoDatabase");
+        }
+
+        if (pps.getProperty("mongoUsername") != null) {
+            mongoUsername = pps.getProperty("mongoUsername");
+        }
+
+        if (pps.getProperty("mongoPasswd") != null) {
+            mongoPasswd = pps.getProperty("mongoPasswd");
         }
 
         if (pps.getProperty("sensorSiteid") != null) {
