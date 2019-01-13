@@ -283,10 +283,10 @@ public class PcapFileOfflineSplit implements Runnable{
                 PcapFileManager.updatePcapFileInfoFromDB(pcapFileInfo.getId());
 
                 //删除系统中的pcap文件
-                String filePath = pcapFileInfo.getFilepath();
+                /*String filePath = pcapFileInfo.getFilepath();
                 File f = new File(filePath);
                 if (f != null)
-                    f.delete();
+                    f.delete();*/
 
 
                 int fCount = cycleTasks.size();
