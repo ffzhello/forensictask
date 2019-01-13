@@ -22,5 +22,10 @@
         <Root level="debug">
             <AppenderRef ref="AutoResponse"/>
         </Root>
+        <!-- 过滤第三方jar包日志输出 -->
+        <Logger name="org.mongodb" level="warn" additivity="false"></Logger>
+        <Root level="debug">
+            <AppenderRef ref="AutoResponse"/>
+        </Root>
     </Loggers>
 </Configuration>
