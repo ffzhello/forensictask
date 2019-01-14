@@ -286,6 +286,23 @@ public class LogAnalysisManager {
                 document.put("peerip", peerIpLong);
                 document.put("cycle", cycle);
 
+                // 连接日志冗余追踪ip流量大小、对端ip流量大小信息，提高页面加载速度
+                long taskPkts = ("-".equals(fieldValue[10]))? 0: Long.valueOf(fieldValue[10]);
+                long taskBytes = ("-".equals(fieldValue[11]))? 0: Long.valueOf(fieldValue[11]);
+                long peerPkts = ("-".equals(fieldValue[8]))? 0: Long.valueOf(fieldValue[8]);
+                long peerBytes = ("-".equals(fieldValue[9]))? 0: Long.valueOf(fieldValue[9]);
+
+                if (taskIp.equals(fieldValue[2])) {
+                    taskPkts = ("-".equals(fieldValue[8]))? 0: Long.valueOf(fieldValue[8]);
+                    taskBytes = ("-".equals(fieldValue[9]))? 0: Long.valueOf(fieldValue[9]);
+                    peerPkts = ("-".equals(fieldValue[10]))? 0: Long.valueOf(fieldValue[10]);
+                    peerBytes = ("-".equals(fieldValue[11]))? 0: Long.valueOf(fieldValue[11]);
+                }
+                document.put("task_pkts", taskPkts);
+                document.put("task_bytes", taskBytes);
+                document.put("peer_pkts", peerPkts);
+                document.put("peer_bytes", peerBytes);
+
                 documents.add(document);
             }
             reader.close();
