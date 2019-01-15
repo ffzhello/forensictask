@@ -79,7 +79,9 @@ public class ConcurrentDetection implements Runnable {
                     activeTask.responseResult.actionResult.get(ResponseAction.BroDetect)) {
 
                 // 处理日志信息
-                logAnalysis(activeTask);
+                // logAnalysis(activeTask);
+                   LogAnalysisManager manager = new LogAnalysisManager(activeTask);
+                   manager.logAnalysis();
             }
 
             LOG.debug("[taskid:" + activeTask.getId() +"]检测完成");
@@ -396,6 +398,18 @@ public class ConcurrentDetection implements Runnable {
                     continue;
                 if (protocolLog == true)
                     serviceMap.put(fields[0],filename);
+
+                // conlog日志计算结束时间
+                if (connLog == true) {
+                    if ("-".equals(fields[12])) {
+                        fields[12] = TimeManager.changeTsToString(fields[1]);
+                    } else {
+                        double st = Double.parseDouble(fields[1]);
+                        double duration = Double.parseDouble(fields[12]);
+                        double et = st + duration;
+                        fields[12] = TimeManager.changeTsToString(String.valueOf(et));
+                    }
+                }
 
                 //时间戳处理，警报txt时间格式已经统一，不用处理
                 if (!("weird".equals(filename)))

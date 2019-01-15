@@ -7,6 +7,7 @@ import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+import com.google.gson.Gson;
 import org.pcap4j.core.*;
 import org.pcap4j.packet.IllegalRawDataException;
 import org.pcap4j.packet.IpV4Packet;
@@ -349,7 +350,8 @@ public class PcapFileOfflineSplit implements Runnable{
                         StopResult result = new StopResult();
                         result.setTicketid(task.getTicketId());
 
-                        //hydra.send(new Gson().toJson(result));
+                        hydra.send(new Gson().toJson(result));
+                        LOG.debug("任务[taskid:" + task.getId() + "停止成功...");
                     } catch (Exception e) {
                         LOG.debug("任务[taskid:" + task.getId() + "停止失败...");
                     } finally {

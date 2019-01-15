@@ -13,7 +13,7 @@ import java.net.URL;
 
 public class SendStopToHydra {
     private static Logger LOG = LoggerFactory.getLogger(SendStopToHydra.class);
-    private static String hydraUrl = "http:211.65.193.183/hydra/del-response-task";
+    private static String hydraUrl = "http://211.65.193.183:6001/hydra/del-response-task";
 
     public void send(String responseResult) throws IOException {
         //建立连接
@@ -56,7 +56,6 @@ public class SendStopToHydra {
             }
 
             responseReader.close();
-            System.out.println(sb.toString());
         } else {
             LOG.debug("{} return code: {}.", this.hydraUrl, resultCode);
         }
