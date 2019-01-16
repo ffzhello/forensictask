@@ -7,6 +7,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.*;
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
@@ -251,7 +252,8 @@ public class LogAnalysisManager {
                 } else {
                     double duration = Double.parseDouble(fieldValue[12]);
                     double st = Double.parseDouble(fieldValue[1]);
-                    double et = st+duration;
+                    //
+                    BigDecimal et = BigDecimal.valueOf(duration+st);
                     fieldValue[12] = TimeManager.changeTsToString(String.valueOf(et));
                 }
 
