@@ -5,17 +5,27 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class TimeManager {
+    /**
+     * 将bro日志时间戳转换为时间
+     * @param ts
+     * @return
+     */
     public static String changeTsToString(String ts) {
         if (ts == null)
             return null;
 
         String tsStr = null;
+        // 保留时间精度
 
-        String str = ts.replace(".","").substring(0,13);
-        long strlong = Long.parseLong(str);
+        String[] timeStr = ts.split("\\.");
+        if (timeStr.length < 2) {
+            return null;
+        }
 
-        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS");
-        String d = format.format(strlong);
+        long stamp = Long.parseLong(timeStr[0]) * 1000L;
+
+        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        String d = format.format(stamp);
         try {
             Date date = format.parse(d);
             tsStr = format.format(date);
@@ -23,7 +33,7 @@ public class TimeManager {
             e.printStackTrace();
         }
 
-        return tsStr;
+        return tsStr+ "." +timeStr[1];
     }
 
     public static void main(String[] args) {
