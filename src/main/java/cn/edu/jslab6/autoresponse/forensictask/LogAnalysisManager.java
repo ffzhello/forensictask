@@ -246,23 +246,23 @@ public class LogAnalysisManager {
                 if (fieldName.length != fieldValue.length)
                     continue;
 
-                // 计算结束时间
-                if ("-".equals(fieldValue[12])) {
-                    fieldValue[12] = TimeManager.changeTsToString(fieldValue[1]);
-                } else {
-                    double duration = Double.parseDouble(fieldValue[12]);
-                    double st = Double.parseDouble(fieldValue[1]);
-                    //
-                    BigDecimal et = BigDecimal.valueOf(duration+st);
-                    fieldValue[12] = TimeManager.changeTsToString(String.valueOf(et));
-                }
-
                 // 计算开始时间
                 fieldValue[1] = TimeManager.changeTsToString(fieldValue[1]);
 
                 // 服务富化
                 if ("-".equals(fieldValue[7]) && serviceMap.containsKey(fieldValue[0])) {
                     fieldValue[7] = serviceMap.get(fieldValue[0]);
+                } else if (fieldValue[7].contains(",")) {
+                    String[] services = fieldValue[7].split(",");
+                    String ss = "";
+                    for (String service: services) {
+                        if (BroLogType.protocolLogSet.contains(service+".log")) {
+                            ss += service + ",";
+                        }
+                    }
+                    fieldValue[7] = ss;
+                } else if (!("-".equals(fieldValue[7])) && !(BroLogType.protocolLogSet.contains(fieldValue[7]+".log"))){ //过滤未知服务icmp等
+                    continue;
                 }
 
                 Document document = new Document();
