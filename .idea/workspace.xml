@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/LogAnalysisManager.java" line="238" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ed27bd4-28a0-46ae-b0fa-087833d45c2d" name="Default" comment="引入mongo-java-driver依赖">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/MongoDbManager.java" afterDir="false" />
+    <list default="true" id="4ed27bd4-28a0-46ae-b0fa-087833d45c2d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/logextractrules.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bin/logextractrules.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/Pcap4JTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/Pcap4JTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/TimeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/TimeManager.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,10 +36,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/MongoDbManager.java">
+        <entry file="file://$PROJECT_DIR$/bin/logextractrules.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            <state relative-caret-position="75">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -94,12 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/TaskStatus.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/TT.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/Merge.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/Pcap4JTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/Testsss.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ResponseResult.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/TestJson.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/IpMask.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/PacketMatch.java" />
@@ -111,12 +110,10 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/Process.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ResponseResultSender.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/Utils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/SystemConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/MultiProcessTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ActionHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/Thre.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/PeerIpInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/AutoResponseMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/PeerIpSplitTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ResponseTaskHttpHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/DBConnectionManager.java" />
@@ -130,21 +127,29 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ResponseTask.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/TaskManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ActiveTask.java" />
-        <option value="$PROJECT_DIR$/bin/system.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/SendStopToHydra.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/StopResult.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ActiveTaskManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/PcapFileOfflineSplit.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/TimeManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/IpUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ConcurrentDetection.java" />
-        <option value="$PROJECT_DIR$/bin/logextractrules.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/SensorStopStrategy.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponsetask/tools/MergePcap.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/MergePcapTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/MongoDuridPool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/SystemConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/AutoResponseMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/MongoDbManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/Log2MongoDbManager.java" />
+        <option value="$PROJECT_DIR$/conf/log4j2.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/SensorStopStrategy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ConcurrentDetection.java" />
+        <option value="$PROJECT_DIR$/bin/system.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/SendStopToHydra.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/PcapFileOfflineSplit.java" />
+        <option value="$PROJECT_DIR$/bin/mongofield.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/TimeManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/LogAnalysisManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/Point.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/MergePcapTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/Pcap4JTest.java" />
+        <option value="$PROJECT_DIR$/bin/logextractrules.properties" />
       </list>
     </option>
   </component>
@@ -183,9 +188,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-14" />
-    <option name="width" value="1353" />
+    <option name="x" value="-34" />
+    <option name="y" value="-12" />
+    <option name="width" value="1248" />
     <option name="height" value="746" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -195,7 +200,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,7 +210,7 @@
             <path>
               <item name="forensictask" type="b2602c69:ProjectViewProjectNode" />
               <item name="forensictask" type="462c0819:PsiDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="forensictask" type="b2602c69:ProjectViewProjectNode" />
@@ -242,11 +246,40 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="jslab6" type="462c0819:PsiDirectoryNode" />
               <item name="forensictask" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="forensictask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forensictask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jslab6" type="462c0819:PsiDirectoryNode" />
+              <item name="forensictask" type="462c0819:PsiDirectoryNode" />
+              <item name="ResponseTaskHttpHandler.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="forensictask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forensictask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jslab6" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="forensictask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forensictask" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="forensictask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -258,19 +291,20 @@
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547212350280" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554342762366" />
     <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/org/mongodb/mongo-java-driver/3.9.0/mongo-java-driver-3.9.0.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.36551723" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\forensictask\src\main" />
-      <recent name="E:\forensictask\conf" />
-      <recent name="E:\forensictask" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\forensictask\bin" />
+      <recent name="E:\forensictask\src\main\java" />
+      <recent name="E:\forensictask\src\main\resources" />
+      <recent name="E:\forensictask\src\main\java\cn\edu\jslab6\autoresponse\forensictask" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.edu.jslab6.autoresponsetask.tools" />
@@ -278,11 +312,10 @@
       <recent name="cn.edu.jslab6.autoresponse.forensictask" />
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\forensictask\bin" />
-      <recent name="E:\forensictask\src\main\java" />
-      <recent name="E:\forensictask\src\main\resources" />
-      <recent name="E:\forensictask\src\main\java\cn\edu\jslab6\autoresponse\forensictask" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\forensictask\src\main" />
+      <recent name="E:\forensictask\conf" />
+      <recent name="E:\forensictask" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -297,7 +330,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MergePcapTest">
+  <component name="RunManager" selected="Application.Pcap4JTest">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -514,20 +547,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConcurrentDetection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.edu.jslab6.autoresponse.forensictask.ConcurrentDetection" />
-      <module name="forensictask" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.edu.jslab6.autoresponse.forensictask.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="IpUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.edu.jslab6.autoresponse.forensictask.IpUtils" />
       <module name="forensictask" />
@@ -556,8 +575,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PcapFileOfflineSplit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.edu.jslab6.autoresponse.forensictask.PcapFileOfflineSplit" />
+    <configuration name="Pcap4JTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.edu.jslab6.autoresponse.forensictask.Pcap4JTest" />
+      <module name="forensictask" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.jslab6.autoresponse.forensictask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Point" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.edu.jslab6.autoresponse.forensictask.Point" />
       <module name="forensictask" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -648,19 +681,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ConcurrentDetection" />
-      <item itemvalue="Application.PcapFileOfflineSplit" />
       <item itemvalue="Application.IpUtils" />
-      <item itemvalue="Application.TimeManager" />
       <item itemvalue="Application.MergePcapTest" />
+      <item itemvalue="Application.Point" />
+      <item itemvalue="Application.TimeManager" />
+      <item itemvalue="Application.Pcap4JTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MergePcapTest" />
+        <item itemvalue="Application.Pcap4JTest" />
+        <item itemvalue="Application.Point" />
         <item itemvalue="Application.TimeManager" />
+        <item itemvalue="Application.MergePcapTest" />
         <item itemvalue="Application.IpUtils" />
-        <item itemvalue="Application.PcapFileOfflineSplit" />
-        <item itemvalue="Application.ConcurrentDetection" />
       </list>
     </recent_temporary>
   </component>
@@ -825,7 +858,133 @@
       <option name="project" value="LOCAL" />
       <updated>1547201867817</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="日志文件存入MongoDB">
+      <created>1547212402277</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1547212402278</updated>
+    </task>
+    <task id="LOCAL-00016" summary="添加mongodb配置文件">
+      <created>1547257669166</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1547257669166</updated>
+    </task>
+    <task id="LOCAL-00017" summary="mongodb配置文件读取类">
+      <created>1547258060901</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1547258060901</updated>
+    </task>
+    <task id="LOCAL-00018" summary="MongoDB客户端实例">
+      <created>1547260902052</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1547260902052</updated>
+    </task>
+    <task id="LOCAL-00019" summary="日志文件存入MongoDB">
+      <created>1547355153494</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1547355153494</updated>
+    </task>
+    <task id="LOCAL-00020" summary="mongodb文档字段表">
+      <created>1547355187782</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1547355187782</updated>
+    </task>
+    <task id="LOCAL-00021" summary="日志文件存入MongoDB">
+      <created>1547355203021</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1547355203021</updated>
+    </task>
+    <task id="LOCAL-00022" summary="pcap处理完存档，不删除">
+      <created>1547355242883</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1547355242883</updated>
+    </task>
+    <task id="LOCAL-00023" summary="mongo-java-driver不写日志">
+      <created>1547355282694</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1547355282694</updated>
+    </task>
+    <task id="LOCAL-00024" summary="测试更改">
+      <created>1547355339837</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1547355339837</updated>
+    </task>
+    <task id="LOCAL-00025" summary="报文采集到100M停止采集">
+      <created>1547355360870</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1547355360870</updated>
+    </task>
+    <task id="LOCAL-00026" summary="报文大小用数字表示">
+      <created>1547458147493</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1547458147493</updated>
+    </task>
+    <task id="LOCAL-00027" summary="mongodb字段修改">
+      <created>1547458175051</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1547458175051</updated>
+    </task>
+    <task id="LOCAL-00028" summary="任务停止采集信号发送">
+      <created>1547534860770</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1547534860770</updated>
+    </task>
+    <task id="LOCAL-00029" summary="时间精度">
+      <created>1547637505197</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1547637505197</updated>
+    </task>
+    <task id="LOCAL-00030" summary="double类型数据过大时会以科学记数法表示，导致计算时间出错">
+      <created>1547642342967</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1547642342967</updated>
+    </task>
+    <task id="LOCAL-00031" summary="连接日志保存持续时间">
+      <created>1547702564049</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1547702564049</updated>
+    </task>
+    <task id="LOCAL-00032" summary="连接日志保存持续时间">
+      <created>1547702578226</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1547702578226</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -841,10 +1000,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="1672" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23500612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24677187" />
       <window_info id="Structure" order="1" weight="0.2489976" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -854,18 +1013,18 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32969433" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985653" weight="0.23570432" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985653" weight="0.16608997" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.25905293" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49928263" weight="0.32914925" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50143474" side_tool="true" weight="0.21478382" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49928263" weight="0.40306833" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49928263" weight="0.3621684" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4985653" weight="0.21478382" />
       <window_info anchor="bottom" id="Run with VisualVM" order="10" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32775453" />
-      <window_info anchor="right" id="Maven" order="0" weight="0.27474892" />
+      <window_info anchor="right" id="Maven" order="0" weight="0.1420373" />
       <window_info anchor="right" id="Commander" order="1" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
@@ -959,9 +1118,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="initial commit" />
-    <MESSAGE value="采集到50M停止采集" />
-    <MESSAGE value="连接日志冗余追踪ip流量大小、对端ip流量大小信息，便于页面加载速度" />
     <MESSAGE value="ip用long形式冗余，便于聚合索引，提高页面加载速度" />
     <MESSAGE value="删除已经分离的pcap文件" />
     <MESSAGE value="警报信息单独处理" />
@@ -971,121 +1127,29 @@
     <MESSAGE value="流量采集上限设置为30M" />
     <MESSAGE value="流量采集上限设置为25M" />
     <MESSAGE value="引入mongo-java-driver依赖" />
-    <option name="LAST_COMMIT_MESSAGE" value="引入mongo-java-driver依赖" />
+    <MESSAGE value="添加mongodb配置文件" />
+    <MESSAGE value="mongodb配置文件读取类" />
+    <MESSAGE value="MongoDB客户端实例" />
+    <MESSAGE value="mongodb文档字段表" />
+    <MESSAGE value="日志文件存入MongoDB" />
+    <MESSAGE value="pcap处理完不删除，存档" />
+    <MESSAGE value="pcap处理完存档，不删除" />
+    <MESSAGE value="mongo-java-driver不写日志" />
+    <MESSAGE value="测试更改" />
+    <MESSAGE value="报文采集到100M停止采集" />
+    <MESSAGE value="报文大小用数字表示" />
+    <MESSAGE value="mongodb字段修改" />
+    <MESSAGE value="任务停止采集信号发送" />
+    <MESSAGE value="时间精度" />
+    <MESSAGE value="double类型数据过大时会以科学记数法表示，导致计算时间出错" />
+    <MESSAGE value="连接日志保存持续时间" />
+    <option name="LAST_COMMIT_MESSAGE" value="连接日志保存持续时间" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ProtoNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ResponseAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/PeerIpSplitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="161" column="59" lean-forward="true" selection-start-line="161" selection-start-column="59" selection-end-line="161" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/SendWholePcapToCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="148" column="39" selection-start-line="148" selection-start-column="25" selection-end-line="148" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/TestStatic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/TestJson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/TestHandlerTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/TaskStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-          <folding>
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/druid-1.1.9.jar!/com/alibaba/druid/pool/DruidDataSource.class" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/CycleSensorManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/PcapFileManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2750">
-          <caret line="82" column="8" lean-forward="true" selection-start-line="82" selection-start-column="8" selection-end-line="84" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/BroLogType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/LogToDbManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.9/druid-1.1.9.jar!/com/alibaba/druid/pool/DruidAbstractDataSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="96" column="42" lean-forward="true" selection-start-line="96" selection-start-column="42" selection-end-line="96" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.9/druid-1.1.9.jar!/com/alibaba/druid/pool/DruidDataSource.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1017">
@@ -1121,66 +1185,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ActionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="80" column="71" lean-forward="true" selection-start-line="80" selection-start-column="71" selection-end-line="80" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/SystemConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="83" column="5" lean-forward="true" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ResponseResultSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/PcapResponseResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-475">
-          <caret line="21" column="62" lean-forward="true" selection-start-line="21" selection-start-column="62" selection-end-line="21" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/TaskManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ActiveTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ResponseTaskHttpHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="94" column="40" lean-forward="true" selection-start-line="94" selection-end-line="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ResponseTaskManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ResponseTaskHttpServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="24" column="33" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1197,17 +1205,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/StopResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-          <folding>
-            <element signature="e#145#146#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/TestIp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
@@ -1215,51 +1212,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ActiveTaskManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/SendStopToHydra.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/system.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/Thre.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1575">
           <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/PcapFileOfflineSplit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3274">
-          <caret line="214" column="21" lean-forward="true" selection-start-line="214" selection-start-column="21" selection-end-line="214" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/TimeManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1275,51 +1231,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/target/maven-archiver/pom.properties" />
     <entry file="file://$PROJECT_DIR$/target/classes/cn/edu/jslab6/autoresponse/forensictask/TimeManager.class" />
-    <entry file="file://$PROJECT_DIR$/bin/logextractrules.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ConcurrentDetection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="450" column="5" selection-start-line="450" selection-start-column="5" selection-end-line="450" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/FileManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="113" column="18" selection-start-line="113" selection-start-column="18" selection-end-line="113" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-675">
           <caret line="72" column="62" selection-start-line="72" selection-start-column="62" selection-end-line="72" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponsetask/tools/MergePcap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
-          <caret line="88" column="51" selection-start-line="88" selection-start-column="51" selection-end-line="88" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/MergePcapTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1333,30 +1248,264 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/SensorStopStrategy.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/MongoDuridPool.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/AutoResponseMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        <state relative-caret-position="550">
+          <caret line="31" column="65" lean-forward="true" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/logs/autoresponse.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/forensictask.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/MongoDuridPool.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/TaskManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        <state relative-caret-position="425">
+          <caret line="73" column="50" lean-forward="true" selection-start-line="73" selection-start-column="50" selection-end-line="73" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ActiveTaskManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3625">
+          <caret line="36" column="22" selection-start-line="36" selection-start-column="7" selection-end-line="36" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/MongoDbManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ActionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/SystemConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="158" column="45" selection-start-line="158" selection-start-column="37" selection-end-line="158" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/FileManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="93" column="36" selection-start-line="93" selection-start-column="36" selection-end-line="93" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_112/src.zip!/java/util/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="967" column="18" selection-start-line="967" selection-start-column="18" selection-end-line="967" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/Log2MongoDbManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/SensorStopStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/SensorTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/TestJson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ResponseTaskManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ResponseTaskHttpHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-250">
+          <caret line="21" column="56" lean-forward="true" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/TestHandlerTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-875">
+          <caret line="24" column="48" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ResponseResultSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="30" column="33" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ResponseTaskHttpServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/system.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/SendStopToHydra.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="58" column="7" selection-start-line="58" selection-start-column="7" selection-end-line="58" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/PcapResponseResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/StopResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/PcapFileOfflineSplit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5825">
+          <caret line="344" column="50" lean-forward="true" selection-start-line="344" selection-start-column="50" selection-end-line="344" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/ConcurrentDetection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="485" column="72" selection-start-line="485" selection-start-column="55" selection-end-line="485" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/mongofield.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="104" selection-start-column="104" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/Point.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/MultiDetect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="53" column="26" lean-forward="true" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/Pcap4JTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/MergePcapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponsetask/tools/SendAlertToCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="47" column="16" lean-forward="true" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponsetask/tools/MergePcap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="130" column="5" selection-start-line="130" selection-start-column="5" selection-end-line="130" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/BroLogType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/TimeManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/edu/jslab6/autoresponse/forensictask/LogAnalysisManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1078">
+          <caret line="221" column="24" selection-start-line="221" selection-start-column="7" selection-end-line="221" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/forensictask.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/autoresponse.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/logextractrules.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
